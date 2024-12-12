@@ -75,8 +75,8 @@ Best Accuracy Score: 0.82
 
 Classification Report:
               precision    recall  f1-score   support
-No Depression       0.85      0.88      0.86       500
-   Depression       0.78      0.73      0.75       300
+No Depression       0.85      0.88      0.86       115133
+   Depression       0.78      0.73      0.75       25567
 ```
 
 ## Competition Performance

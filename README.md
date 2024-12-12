@@ -1,8 +1,8 @@
-# 🧠 Mental Health Survey Depression Classification
+# Mental Health Survey Depression Classification
 
-## 📄 Overview
+## Overview
 
-Welcome to the **2024 Kaggle Playground Series**! This repository contains a machine learning project that uses data from a mental health survey to predict whether individuals experience depression. The project employs various preprocessing techniques and classification models to achieve accurate predictions. Submissions are evaluated using **Accuracy Score**.
+This repository contains a machine learning project that uses data from a mental health survey to predict whether individuals experience depression. The project employs various preprocessing techniques and classification models to achieve accurate predictions. Submissions are evaluated using **Accuracy Score**.
 
 ## 🎯 Goal
 

@@ -73,7 +73,7 @@ pip install pandas matplotlib seaborn scikit-learn
 - **Best Accuracy Score**: Displayed after hyperparameter tuning.
 - **Confusion Matrix**: Visualizes model performance on the training data.
 
-## 🔍 Sample Output
+## Sample Output
 
 ```
 Best Parameters: {'select__k': 10, 'classifier': GradientBoostingClassifier(), ...}
@@ -85,6 +85,6 @@ No Depression       0.85      0.88      0.86       500
    Depression       0.78      0.73      0.75       300
 ```
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License.

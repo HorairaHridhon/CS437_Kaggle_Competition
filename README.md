@@ -14,6 +14,10 @@ Explore factors that may cause individuals to experience depression and build a 
 - **`train.csv`**: Training dataset with labeled data.
 - **`test.csv`**: Test dataset for making predictions.
 - **`submission_project.csv`**: Submission file containing predicted results.
+- **`final_code_notebook.ipynb`**: Jupyter Notebook with the implementation.
+- **`final_code.py`**: Python Script
+- **`project_presentation_cs437.pptx`**: Presentation File
+
 
 ### Data Columns:
 - **Features**: Various demographic and lifestyle attributes, including:
@@ -76,5 +80,8 @@ No Depression       0.85      0.88      0.86       500
 ```
 
 ## License
+This project follows the DbCL license for the dataset, as per [opendatacommons.org/licenses/dbcl/1-0](https://opendatacommons.org/licenses/dbcl/1-0).
 
-This project is licensed under the MIT License.
+## Acknowledgments
+- Dataset Source: [Kaggle Playground Series - Exploring Mental Health Data]([https://www.kaggle.com/datasets/uciml/zoo-animal-classification](https://www.kaggle.com/competitions/playground-series-s4e11))
+- Instructions provided by the course professor.

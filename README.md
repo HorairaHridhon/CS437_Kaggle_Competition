@@ -84,7 +84,7 @@ No Depression       0.85      0.88      0.86       115133
 - **Percentile**: 54th percentile
 
 ## License
-This project follows the DbCL license for the dataset, as per [opendatacommons.org/licenses/dbcl/1-0](https://opendatacommons.org/licenses/dbcl/1-0).
+This project is licensed under the MIT License.
 
 ## Acknowledgments
 - Dataset Source: [Kaggle Playground Series - Exploring Mental Health Data](https://www.kaggle.com/competitions/playground-series-s4e11)

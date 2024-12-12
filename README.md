@@ -4,11 +4,11 @@
 
 This repository contains a machine learning project that uses data from a mental health survey to predict whether individuals experience depression. The project employs various preprocessing techniques and classification models to achieve accurate predictions. Submissions are evaluated using **Accuracy Score**.
 
-## 🎯 Goal
+## Goal
 
 Explore factors that may cause individuals to experience depression and build a predictive model using **Gradient Boosting** and **Random Forest** classifiers.
 
-## 📊 Dataset
+## Dataset
 
 ### Files:
 - **`train.csv`**: Training dataset with labeled data.
@@ -26,7 +26,7 @@ Explore factors that may cause individuals to experience depression and build a 
   - **Ordinal Columns**: `Academic Pressure`, `Work Pressure`, `Study Satisfaction`, `Job Satisfaction`, `Financial Stress`
 - **Target**: `Depression` (0 = No Depression, 1 = Depression)
 
-## 🛠️ Project Structure
+## Project Structure
 
 ```
 ├── train.csv
@@ -36,7 +36,7 @@ Explore factors that may cause individuals to experience depression and build a 
 └── README.md
 ```
 
-## 🖥️ Dependencies
+## Dependencies
 
 Install the required Python libraries:
 
@@ -44,28 +44,7 @@ Install the required Python libraries:
 pip install pandas matplotlib seaborn scikit-learn
 ```
 
-## 🚀 How to Run the Project
-
-1. **Clone the Repository**:
-
-   ```bash
-   git clone https://github.com/yourusername/mental-health-depression-classification.git
-   cd mental-health-depression-classification
-   ```
-
-2. **Run the Notebook**:
-
-   Open `depression_classification.ipynb` and run the cells step-by-step using Jupyter Notebook or Jupyter Lab.
-
-   ```bash
-   jupyter notebook depression_classification.ipynb
-   ```
-
-3. **Generate Submission**:
-
-   After running the notebook, a `submission_project.csv` file will be generated, containing predictions for the test dataset.
-
-## ⚙️ Key Steps in the Pipeline
+## Key Steps
 
 1. **Data Preprocessing**:
    - Handle missing values using `SimpleImputer`.
@@ -89,7 +68,7 @@ pip install pandas matplotlib seaborn scikit-learn
    - Generate predictions for the test dataset.
    - Export the results to `submission_project.csv`.
 
-## 📈 Results
+## Results
 
 - **Best Accuracy Score**: Displayed after hyperparameter tuning.
 - **Confusion Matrix**: Visualizes model performance on the training data.
@@ -105,10 +84,6 @@ Classification Report:
 No Depression       0.85      0.88      0.86       500
    Depression       0.78      0.73      0.75       300
 ```
-
-## 🧩 Contributing
-
-Contributions are welcome! Please fork the repository and submit a pull request with detailed comments.
 
 ## 📝 License
 

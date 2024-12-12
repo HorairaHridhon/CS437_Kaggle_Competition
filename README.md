@@ -83,5 +83,5 @@ No Depression       0.85      0.88      0.86       500
 This project follows the DbCL license for the dataset, as per [opendatacommons.org/licenses/dbcl/1-0](https://opendatacommons.org/licenses/dbcl/1-0).
 
 ## Acknowledgments
-- Dataset Source: [Kaggle Playground Series - Exploring Mental Health Data]([https://www.kaggle.com/datasets/uciml/zoo-animal-classification](https://www.kaggle.com/competitions/playground-series-s4e11))
+- Dataset Source: [Kaggle Playground Series - Exploring Mental Health Data](https://www.kaggle.com/competitions/playground-series-s4e11)
 - Instructions provided by the course professor.

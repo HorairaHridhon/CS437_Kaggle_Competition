@@ -1,1 +1,115 @@
-# CS437_Kaggle_Competition
+# 🧠 Mental Health Survey Depression Classification
+
+## 📄 Overview
+
+Welcome to the **2024 Kaggle Playground Series**! This repository contains a machine learning project that uses data from a mental health survey to predict whether individuals experience depression. The project employs various preprocessing techniques and classification models to achieve accurate predictions. Submissions are evaluated using **Accuracy Score**.
+
+## 🎯 Goal
+
+Explore factors that may cause individuals to experience depression and build a predictive model using **Gradient Boosting** and **Random Forest** classifiers.
+
+## 📊 Dataset
+
+### Files:
+- **`train.csv`**: Training dataset with labeled data.
+- **`test.csv`**: Test dataset for making predictions.
+- **`submission_project.csv`**: Submission file containing predicted results.
+
+### Data Columns:
+- **Features**: Various demographic and lifestyle attributes, including:
+  - `Age`
+  - `Sleep Duration`
+  - `Dietary Habits`
+  - `Profession`
+  - `Degree`
+  - `City`
+  - **Ordinal Columns**: `Academic Pressure`, `Work Pressure`, `Study Satisfaction`, `Job Satisfaction`, `Financial Stress`
+- **Target**: `Depression` (0 = No Depression, 1 = Depression)
+
+## 🛠️ Project Structure
+
+```
+├── train.csv
+├── test.csv
+├── submission_project.csv
+├── depression_classification.ipynb  # Main notebook
+└── README.md
+```
+
+## 🖥️ Dependencies
+
+Install the required Python libraries:
+
+```bash
+pip install pandas matplotlib seaborn scikit-learn
+```
+
+## 🚀 How to Run the Project
+
+1. **Clone the Repository**:
+
+   ```bash
+   git clone https://github.com/yourusername/mental-health-depression-classification.git
+   cd mental-health-depression-classification
+   ```
+
+2. **Run the Notebook**:
+
+   Open `depression_classification.ipynb` and run the cells step-by-step using Jupyter Notebook or Jupyter Lab.
+
+   ```bash
+   jupyter notebook depression_classification.ipynb
+   ```
+
+3. **Generate Submission**:
+
+   After running the notebook, a `submission_project.csv` file will be generated, containing predictions for the test dataset.
+
+## ⚙️ Key Steps in the Pipeline
+
+1. **Data Preprocessing**:
+   - Handle missing values using `SimpleImputer`.
+   - Map categorical values to broader categories for `Sleep Duration`, `Dietary Habits`, `Profession`, and `Degree`.
+   - Standardize numerical features and one-hot encode categorical features.
+
+2. **Feature Selection**:
+   - Use `SelectKBest` with `f_classif` to select the most important features.
+
+3. **Model Training**:
+   - Train models using `GradientBoostingClassifier` and `RandomForestClassifier`.
+   - Perform hyperparameter tuning with `RandomizedSearchCV`.
+
+4. **Evaluation**:
+   - Evaluate the best model using:
+     - **Accuracy Score**
+     - **Classification Report**
+     - **Confusion Matrix**
+
+5. **Prediction**:
+   - Generate predictions for the test dataset.
+   - Export the results to `submission_project.csv`.
+
+## 📈 Results
+
+- **Best Accuracy Score**: Displayed after hyperparameter tuning.
+- **Confusion Matrix**: Visualizes model performance on the training data.
+
+## 🔍 Sample Output
+
+```
+Best Parameters: {'select__k': 10, 'classifier': GradientBoostingClassifier(), ...}
+Best Accuracy Score: 0.82
+
+Classification Report:
+              precision    recall  f1-score   support
+No Depression       0.85      0.88      0.86       500
+   Depression       0.78      0.73      0.75       300
+```
+
+## 🧩 Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request with detailed comments.
+
+## 📝 License
+
+This project is licensed under the MIT License.

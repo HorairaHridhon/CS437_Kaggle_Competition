@@ -26,16 +26,6 @@ Explore factors that may cause individuals to experience depression and build a 
   - **Ordinal Columns**: `Academic Pressure`, `Work Pressure`, `Study Satisfaction`, `Job Satisfaction`, `Financial Stress`
 - **Target**: `Depression` (0 = No Depression, 1 = Depression)
 
-## Project Structure
-
-```
-├── train.csv
-├── test.csv
-├── submission_project.csv
-├── depression_classification.ipynb  # Main notebook
-└── README.md
-```
-
 ## Dependencies
 
 Install the required Python libraries:

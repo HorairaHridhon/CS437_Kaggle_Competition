@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a machine learning project that uses data from a mental health survey to predict whether individuals experience depression. The project employs various preprocessing techniques and classification models to achieve accurate predictions. This is a Kaggle playground series competition where submissions are evaluated using **Accuracy Score**.
+This repository contains a machine learning project that uses data from a mental health survey to predict whether individuals experience depression. The project employs various preprocessing techniques and classification models to achieve accurate predictions. This is a Kaggle playground prediction competition where submissions are evaluated using **Accuracy Score**.
 
 ## Goal
 
